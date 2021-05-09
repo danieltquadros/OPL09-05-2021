@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+#fundo{
+    background-color: white;
+    padding: 40px;
+}
+.container{
+    padding: 0;
+}
+.btn-navbar{
+    margin: 0px 8px;
+}
+.jumbotron{
+    background-image: url(../images/capa.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: auto;
+    padding-top: 100px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+@media (max-width: 750px){
+    .jumbotron{
+        background-image: url(../images/capa2.jpg);
+    }
+}
+.jumbotron h1{
+    margin: 0;
+    text-shadow: 2px 2px 1px black;
+    font-size: 3.5rem;
+}
+.jumbotron h2{
+    text-shadow: 2px 2px 1px black;
+    font-size: 2.5rem;
+}
+.jumbotron p{
+    margin: 0;
+    text-shadow: 1px 1px 1px black;
+}
+.col1{
+    background-color: #ccc; 
+    margin: 15px;
+    padding: 0;
+}
+.col1 img{
+    width: 100%;
+}
+.col1 h2{
+    padding: 8px
+}
+.col1 p{
+    padding: 8px; 
+    padding-top: 0;
+}
+.col1 div{
+    padding: 16px;
+    padding-top: 0;
+    text-align: center;
+}
+.btn-grey{
+    background-color: rgb(227, 227, 227);
+    color: rgba(0, 0, 0, 0.500)
+}
+#jumbotron-services{
+    background-image: url(/assets/images/topo6.jpg);
+    padding: 100px 32px;
+    height: auto;
+}
+@media (max-width: 750px){
+    #jumbotron-services{
+        background-image: url(../images/topo6b.jpg);
+    }
+}
+#btn-big-column{
+    text-align: left;
+}
+#jumbotron-contact{
+    background-image: url(/assets/images/topo6.jpg);
+    padding: 40px;
+    height: auto;
+}
+@media (max-width: 750px){
+    #jumbotron-contact{
+        background-image: url(../images/topo6b.jpg);
+    }
+}
+#container-contact{
+    width: 70vw;
+}
+#message-area{
+    height: 146px;
+}
+#btn-send{
+    text-align: left;
+}
+#fundo-footer{
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 0;
+}
+.container-footer{
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0;
+}
+#copy{
+    margin-bottom: 0;
+    margin-top: 60px;
+    font-size: 0.7rem;
+}
